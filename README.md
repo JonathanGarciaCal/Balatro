@@ -44,8 +44,22 @@ pytest -q
 
 Use `nbstripout` or `jupyter nbconvert --clear-output` to remove outputs before committing.
 
-## Branching Strategy
+## Branching Strategy & Solo Developer Workflow
 
-- Protect `main`: require passing CI checks and at least one approving review before merge.
-- Prefer `squash` merges to keep history concise.
-- Use short-lived feature/topic branches branching from `main`.
+**Branch Protection on `main`:**
+- Require passing status checks (CI: Ruff, tests, notebook checks) before merge.
+- Require branches to be up-to-date with `main` (strict checks enabled).
+- No manual PR review requirement (since you can't approve your own PR as a solo developer).
+- Squash merge preferred to keep history clean.
+
+**Solo Developer Workflow:**
+1. Create a feature branch from `main`.
+2. Make changes, commit, and push to remote.
+3. Open a PR from your branch to `main`.
+4. CI pipeline runs automatically; if all checks pass, you can squash and merge the PR.
+5. `main` is automatically protected—CI must pass before merge is allowed.
+
+**View/Update Branch Protection:**
+To view or modify branch protection rules in GitHub:
+1. Go to repo **Settings** → **Branches** → **Branch protection rules** → **Edit** (main).
+2. Current settings: CI status checks required, no manual review needed, auto-dismiss stale reviews.
