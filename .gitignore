@@ -28,6 +28,9 @@ dist/
 # Jupyter
 .ipynb_checkpoints/
 
+# Notebooks outputs (keep notebooks tracked but not outputs)
+# Use `nbstripout` or `jupyter nbconvert --clear-output` locally
+
 # IDEs and editors
 .vscode/
 .idea/
@@ -37,7 +40,59 @@ dist/
 # OS files
 .DS_Store
 Thumbs.db
+.Trash-*
+.Spotlight-V100
+.fseventsd
 
-# Lock files (optional)
+# Lock files
 Pipfile.lock
 poetry.lock
+
+# Data - avoid committing large/raw datasets
+data/raw/
+data/interim/
+data/processed/
+*.csv
+*.parquet
+*.feather
+
+# Models and other binaries
+models/
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+*.sav
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# System files
+desktop.ini
+Thumbs.db
+
+# Logs
+logs/
+
+# SQLite
+*.sqlite
+
+# Notebook checkpoints and metadata
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Windows
+ehthumbs.db
+Icon?
+
+# Editor backups
+*~
+*.swp
+

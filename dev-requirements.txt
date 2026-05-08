@@ -1,0 +1,5 @@
+ruff
+pytest
+nbformat
+nbstripout
+pre-commit

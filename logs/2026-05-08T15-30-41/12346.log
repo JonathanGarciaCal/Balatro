@@ -458,3 +458,4 @@ INFO - [G] 2026-05-08 15:35:01 :: DEBUG :: BB.ENDPOINTS :: Setting deck to: Red 
 INFO - [G] 2026-05-08 15:35:01 :: DEBUG :: BB.ENDPOINTS :: Starting run with stake=1 (WHITE), seed=none 
 INFO - [G] 2026-05-08 15:35:04 :: DEBUG :: BB.ENDPOINTS :: Return start() 
 INFO - [G] 2026-05-08 15:35:04 :: DEBUG :: BB.RESPONSE :: start OK (2484ms) 
+AL lib: (EE) alc_cleanup: 1 device not closed

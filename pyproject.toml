@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "balatro"
+version = "0.1.0"
+description = "ML exploration project (Modular Monolith)"
+readme = "README.md"
+requires-python = ">=3.10"
+
+[tool.ruff]
+line-length = 88
+target-version = "py310"
+exclude = ["data", "models", "notebooks", ".venv", "build", "dist", ".git"]
