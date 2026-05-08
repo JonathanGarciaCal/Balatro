@@ -1,3 +1,4 @@
+#%%
 # /// script
 # requires-python = ">=3.11"
 # dependencies = [
@@ -67,4 +68,6 @@ def play_game():
 
 
 if __name__ == "__main__":
-    play_game()
+    while not (play_game()):
+        print("Retrying...")
+# %%
