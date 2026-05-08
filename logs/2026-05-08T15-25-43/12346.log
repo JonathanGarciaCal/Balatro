@@ -1,0 +1,283 @@
+INFO - [♥] Lovely 0.9.0
+INFO - [♥] Game directory is at "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Balatro"
+INFO - [♥] Writing logs to "C:\\Users\\jonat\\AppData\\Roaming\\Balatro\\Mods\\lovely\\log"
+INFO - [♥] Using mod directory at "C:\\Users\\jonat\\AppData\\Roaming\\Balatro\\Mods"
+INFO - [♥] No blacklist.txt in Mods/lovely.
+WARN - [♥] Unknown key `patches.0.?.count` found in patch file "C:\\Users\\jonat\\AppData\\Roaming\\Balatro\\Mods\\imm\\lovely\\misc.toml", ignoring it
+WARN - [♥] Unknown key `patches.0.?.count` found in patch file "C:\\Users\\jonat\\AppData\\Roaming\\Balatro\\Mods\\imm\\lovely\\misc.toml", ignoring it
+INFO - [♥] Cleaning up dump directory at "C:\\Users\\jonat\\AppData\\Roaming\\Balatro\\Mods\\lovely\\dump"
+INFO - [♥] Cleaning up game-dump directory at "C:\\Users\\jonat\\AppData\\Roaming\\Balatro\\Mods\\lovely\\game-dump"
+INFO - [♥] Initialization complete in 494ms
+INFO - [♥] Applied 1 patch to 'conf.lua'
+INFO - [♥] Applied 15 patches to 'main.lua'
+INFO - [♥] Applied 10 patches to 'engine/controller.lua'
+INFO - [♥] Applied 15 patches to 'back.lua'
+INFO - [♥] Applied 10 patches to 'tag.lua'
+INFO - [♥] Applied 5 patches to 'engine/event.lua'
+INFO - [♥] Applied 1 patch to 'engine/node.lua'
+INFO - [♥] Applied 2 patches to 'engine/moveable.lua'
+INFO - [♥] Applied 2 patches to 'engine/sprite.lua'
+INFO - [♥] Applied 4 patches to 'engine/animatedsprite.lua'
+INFO - [♥] Applied 78 patches to 'functions/misc_functions.lua'
+INFO - [♥] Applied 56 patches to 'game.lua'
+INFO - [♥] Applied 1 patch to 'globals.lua'
+INFO - [♥] Applied 7 patches to 'engine/ui.lua'
+WARN - [♥] Pattern '{card_limit = 5, type = \'play\'})\n' on target 'functions/UI_definitions.lua' for pattern patch from Steamodded-1.0.0-beta-1221a\lovely\card_limit.toml resulted in no matches
+WARN - [♥] Pattern 'local r = {n=G.UIT.R, config={align = \"cm\", padding = 0.03}, nodes={\n                {n=G.UIT.T, config={text = text[i],colour = G.C.UI.TEXT_DARK, scale = 0.4}}}}' on target 'functions/UI_definitions.lua' for pattern patch from Steamodded-1.0.0-beta-1221a\lovely\poker_hand_screen.toml resulted in no matches
+WARN - [♥] Pattern 'tab_buttons[#tab_buttons+1] = UIBox_button({id = \'tab_but_\'..(v.label or \'\'), ref_table = v, button = \'change_tab\', label = {v.label}, minh = 0.8*args.scale, minw = 2.5*args.scale, col = true, choice = true, scale = args.text_scale, chosen = v.chosen, func = v.func, focus_args = {type = \'none\'}})' on target 'functions/UI_definitions.lua' for pattern patch from Steamodded-1.0.0-beta-1221a\lovely\ui_elements.toml resulted in no matches
+WARN - [♥] Pattern '{n=G.UIT.C, config={align = \"cm\", draw_layer = 1, colour = G.C.CLEAR}, nodes = {' on target 'functions/UI_definitions.lua' for pattern patch from Steamodded-1.0.0-beta-1221a\lovely\ui_elements.toml resulted in no matches
+WARN - [♥] Pattern '{n=G.UIT.C, config={id = \'text_input\', align = \"cm\", padding = 0.05, r = 0.1, draw_layer = 2, hover = true, colour = args.colour,minw = args.w, min_h = args.h, button = \'select_text_input\', shadow = true}, nodes={' on target 'functions/UI_definitions.lua' for pattern patch from Steamodded-1.0.0-beta-1221a\lovely\ui_elements.toml resulted in no matches
+INFO - [♥] Applied 121 patches to 'functions/UI_definitions.lua'
+INFO - [♥] Applied 58 patches to 'functions/state_events.lua'
+INFO - [♥] Applied 127 patches to 'functions/common_events.lua'
+WARN - [♥] Pattern 'if G.CONTROLLER.text_input_hook then' on target 'functions/button_callbacks.lua' for pattern patch from Steamodded-1.0.0-beta-1221a\lovely\ui_elements.toml resulted in no matches
+INFO - [♥] Applied 61 patches to 'functions/button_callbacks.lua'
+WARN - [♥] Pattern 'self.VT.h = self.T.H\nself.VT.w = self.T.w\n' on target 'card.lua' for pattern patch from Steamodded-1.0.0-beta-1221a\lovely\joker_size.toml resulted in no matches
+INFO - [♥] Applied 222 patches to 'card.lua'
+INFO - [♥] Applied 19 patches to 'cardarea.lua'
+INFO - [♥] Applied 42 patches to 'blind.lua'
+INFO - [♥] Applied 10 patches to 'card_character.lua'
+INFO - [♥] Applied 15 patches to 'engine/text.lua'
+INFO - [♥] Applied 3 patches to '=[SMODS _ "src/ui.lua"]'
+INFO - [G] Failed to connect to the debug server 
+INFO - [G] 2026-05-08 15:25:55 :: DEBUG :: DebugConsole :: Steamodded Debug Socket started ! 
+INFO - [G] 2026-05-08 15:25:55 :: INFO  :: SMODS :: Steamodded v1.0.0~BETA-1221a 
+INFO - [♥] Applied 9 patches to 'engine/sound_manager.lua'
+INFO - [♥] Applied 1 patch to 'engine/save_manager.lua'
+INFO - [G] 2026-05-08 15:25:59 :: INFO  :: Loader :: Valid JSON file found 
+INFO - [G] 2026-05-08 15:25:59 :: INFO  :: Loader :: Valid JSON file found 
+INFO - [G] 2026-05-08 15:25:59 :: ERROR :: Loader :: Found invalid metadata JSON file at C:\Users\jonat\AppData\Roaming\Balatro\Mods/imm/manifest.json, ignoring: [SMODS _ "src/loader.lua"]:226: id 
+INFO - [G] 2026-05-08 15:25:59 :: INFO  :: Loader :: Valid JSON file found 
+INFO - [G] 2026-05-08 15:25:59 :: ERROR :: Loader :: Found invalid metadata JSON file at C:\Users\jonat\AppData\Roaming\Balatro\Mods/lovely/dump/back.lua.json, ignoring: [SMODS _ "src/loader.lua"]:226: id 
+INFO - [G] 2026-05-08 15:25:59 :: ERROR :: Loader :: Found invalid metadata JSON file at C:\Users\jonat\AppData\Roaming\Balatro\Mods/lovely/dump/blind.lua.json, ignoring: [SMODS _ "src/loader.lua"]:226: id 
+INFO - [G] 2026-05-08 15:25:59 :: ERROR :: Loader :: Found invalid metadata JSON file at C:\Users\jonat\AppData\Roaming\Balatro\Mods/lovely/dump/card.lua.json, ignoring: [SMODS _ "src/loader.lua"]:226: id 
+INFO - [G] 2026-05-08 15:25:59 :: ERROR :: Loader :: Found invalid metadata JSON file at C:\Users\jonat\AppData\Roaming\Balatro\Mods/lovely/dump/card_character.lua.json, ignoring: [SMODS _ "src/loader.lua"]:226: id 
+INFO - [G] 2026-05-08 15:25:59 :: ERROR :: Loader :: Found invalid metadata JSON file at C:\Users\jonat\AppData\Roaming\Balatro\Mods/lovely/dump/cardarea.lua.json, ignoring: [SMODS _ "src/loader.lua"]:226: id 
+INFO - [G] 2026-05-08 15:25:59 :: ERROR :: Loader :: Found invalid metadata JSON file at C:\Users\jonat\AppData\Roaming\Balatro\Mods/lovely/dump/conf.lua.json, ignoring: [SMODS _ "src/loader.lua"]:226: id 
+INFO - [G] 2026-05-08 15:25:59 :: ERROR :: Loader :: Found invalid metadata JSON file at C:\Users\jonat\AppData\Roaming\Balatro\Mods/lovely/dump/game.lua.json, ignoring: [SMODS _ "src/loader.lua"]:226: id 
+INFO - [G] 2026-05-08 15:25:59 :: ERROR :: Loader :: Found invalid metadata JSON file at C:\Users\jonat\AppData\Roaming\Balatro\Mods/lovely/dump/globals.lua.json, ignoring: [SMODS _ "src/loader.lua"]:226: id 
+INFO - [G] 2026-05-08 15:25:59 :: ERROR :: Loader :: Found invalid metadata JSON file at C:\Users\jonat\AppData\Roaming\Balatro\Mods/lovely/dump/main.lua.json, ignoring: [SMODS _ "src/loader.lua"]:226: id 
+INFO - [G] 2026-05-08 15:25:59 :: ERROR :: Loader :: Found invalid metadata JSON file at C:\Users\jonat\AppData\Roaming\Balatro\Mods/lovely/dump/tag.lua.json, ignoring: [SMODS _ "src/loader.lua"]:226: id 
+INFO - [G] 2026-05-08 15:25:59 :: ERROR :: Loader :: Found invalid metadata JSON file at C:\Users\jonat\AppData\Roaming\Balatro\Mods/lovely/game-dump/back.lua.json, ignoring: [SMODS _ "src/loader.lua"]:226: id 
+INFO - [G] 2026-05-08 15:25:59 :: ERROR :: Loader :: Found invalid metadata JSON file at C:\Users\jonat\AppData\Roaming\Balatro\Mods/lovely/game-dump/blind.lua.json, ignoring: [SMODS _ "src/loader.lua"]:226: id 
+INFO - [G] 2026-05-08 15:25:59 :: ERROR :: Loader :: Found invalid metadata JSON file at C:\Users\jonat\AppData\Roaming\Balatro\Mods/lovely/game-dump/card.lua.json, ignoring: [SMODS _ "src/loader.lua"]:226: id 
+INFO - [G] 2026-05-08 15:25:59 :: ERROR :: Loader :: Found invalid metadata JSON file at C:\Users\jonat\AppData\Roaming\Balatro\Mods/lovely/game-dump/card_character.lua.json, ignoring: [SMODS _ "src/loader.lua"]:226: id 
+INFO - [G] 2026-05-08 15:25:59 :: ERROR :: Loader :: Found invalid metadata JSON file at C:\Users\jonat\AppData\Roaming\Balatro\Mods/lovely/game-dump/cardarea.lua.json, ignoring: [SMODS _ "src/loader.lua"]:226: id 
+INFO - [G] 2026-05-08 15:25:59 :: ERROR :: Loader :: Found invalid metadata JSON file at C:\Users\jonat\AppData\Roaming\Balatro\Mods/lovely/game-dump/conf.lua.json, ignoring: [SMODS _ "src/loader.lua"]:226: id 
+INFO - [G] 2026-05-08 15:25:59 :: ERROR :: Loader :: Found invalid metadata JSON file at C:\Users\jonat\AppData\Roaming\Balatro\Mods/lovely/game-dump/game.lua.json, ignoring: [SMODS _ "src/loader.lua"]:226: id 
+INFO - [G] 2026-05-08 15:25:59 :: ERROR :: Loader :: Found invalid metadata JSON file at C:\Users\jonat\AppData\Roaming\Balatro\Mods/lovely/game-dump/globals.lua.json, ignoring: [SMODS _ "src/loader.lua"]:226: id 
+INFO - [G] 2026-05-08 15:25:59 :: ERROR :: Loader :: Found invalid metadata JSON file at C:\Users\jonat\AppData\Roaming\Balatro\Mods/lovely/game-dump/main.lua.json, ignoring: [SMODS _ "src/loader.lua"]:226: id 
+INFO - [G] 2026-05-08 15:25:59 :: ERROR :: Loader :: Found invalid metadata JSON file at C:\Users\jonat\AppData\Roaming\Balatro\Mods/lovely/game-dump/tag.lua.json, ignoring: [SMODS _ "src/loader.lua"]:226: id 
+INFO - [G] 2026-05-08 15:26:00 :: DEBUG :: BB.SETTINGS :: Patched love.update with dt=0.016666666666667 
+INFO - [G] 2026-05-08 15:26:00 :: DEBUG :: BB.SERVER :: Loaded OpenRPC spec from C:\Users\jonat\AppData\Roaming\Balatro\Mods/Balatrobot/src/lua/utils/openrpc.json 
+INFO - [G] 2026-05-08 15:26:00 :: DEBUG :: BB.SERVER :: HTTP server listening on http://127.0.0.1:12346 
+INFO - [G] 2026-05-08 15:26:00 :: DEBUG :: BB.DISPATCHER :: Loading endpoint: src/lua/endpoints/health.lua 
+INFO - [G] 2026-05-08 15:26:00 :: DEBUG :: BB.DISPATCHER :: Registered endpoint: health 
+INFO - [G] 2026-05-08 15:26:00 :: DEBUG :: BB.DISPATCHER :: Loading endpoint: src/lua/endpoints/gamestate.lua 
+INFO - [G] 2026-05-08 15:26:00 :: DEBUG :: BB.DISPATCHER :: Registered endpoint: gamestate 
+INFO - [G] 2026-05-08 15:26:00 :: DEBUG :: BB.DISPATCHER :: Loading endpoint: src/lua/endpoints/save.lua 
+INFO - [G] 2026-05-08 15:26:00 :: DEBUG :: BB.DISPATCHER :: Registered endpoint: save 
+INFO - [G] 2026-05-08 15:26:00 :: DEBUG :: BB.DISPATCHER :: Loading endpoint: src/lua/endpoints/load.lua 
+INFO - [G] 2026-05-08 15:26:00 :: DEBUG :: BB.DISPATCHER :: Registered endpoint: load 
+INFO - [G] 2026-05-08 15:26:00 :: DEBUG :: BB.DISPATCHER :: Loading endpoint: src/lua/endpoints/screenshot.lua 
+INFO - [G] 2026-05-08 15:26:00 :: DEBUG :: BB.DISPATCHER :: Registered endpoint: screenshot 
+INFO - [G] 2026-05-08 15:26:00 :: DEBUG :: BB.DISPATCHER :: Loading endpoint: src/lua/endpoints/set.lua 
+INFO - [G] 2026-05-08 15:26:00 :: DEBUG :: BB.DISPATCHER :: Registered endpoint: set 
+INFO - [G] 2026-05-08 15:26:00 :: DEBUG :: BB.DISPATCHER :: Loading endpoint: src/lua/endpoints/add.lua 
+INFO - [G] 2026-05-08 15:26:00 :: DEBUG :: BB.DISPATCHER :: Registered endpoint: add 
+INFO - [G] 2026-05-08 15:26:00 :: DEBUG :: BB.DISPATCHER :: Loading endpoint: src/lua/endpoints/menu.lua 
+INFO - [G] 2026-05-08 15:26:00 :: DEBUG :: BB.DISPATCHER :: Registered endpoint: menu 
+INFO - [G] 2026-05-08 15:26:00 :: DEBUG :: BB.DISPATCHER :: Loading endpoint: src/lua/endpoints/start.lua 
+INFO - [G] 2026-05-08 15:26:00 :: DEBUG :: BB.DISPATCHER :: Registered endpoint: start 
+INFO - [G] 2026-05-08 15:26:00 :: DEBUG :: BB.DISPATCHER :: Loading endpoint: src/lua/endpoints/skip.lua 
+INFO - [G] 2026-05-08 15:26:00 :: DEBUG :: BB.DISPATCHER :: Registered endpoint: skip 
+INFO - [G] 2026-05-08 15:26:00 :: DEBUG :: BB.DISPATCHER :: Loading endpoint: src/lua/endpoints/select.lua 
+INFO - [G] 2026-05-08 15:26:00 :: DEBUG :: BB.DISPATCHER :: Registered endpoint: select 
+INFO - [G] 2026-05-08 15:26:00 :: DEBUG :: BB.DISPATCHER :: Loading endpoint: src/lua/endpoints/play.lua 
+INFO - [G] 2026-05-08 15:26:00 :: DEBUG :: BB.DISPATCHER :: Registered endpoint: play 
+INFO - [G] 2026-05-08 15:26:00 :: DEBUG :: BB.DISPATCHER :: Loading endpoint: src/lua/endpoints/discard.lua 
+INFO - [G] 2026-05-08 15:26:00 :: DEBUG :: BB.DISPATCHER :: Registered endpoint: discard 
+INFO - [G] 2026-05-08 15:26:00 :: DEBUG :: BB.DISPATCHER :: Loading endpoint: src/lua/endpoints/cash_out.lua 
+INFO - [G] 2026-05-08 15:26:00 :: DEBUG :: BB.DISPATCHER :: Registered endpoint: cash_out 
+INFO - [G] 2026-05-08 15:26:00 :: DEBUG :: BB.DISPATCHER :: Loading endpoint: src/lua/endpoints/next_round.lua 
+INFO - [G] 2026-05-08 15:26:00 :: DEBUG :: BB.DISPATCHER :: Registered endpoint: next_round 
+INFO - [G] 2026-05-08 15:26:00 :: DEBUG :: BB.DISPATCHER :: Loading endpoint: src/lua/endpoints/reroll.lua 
+INFO - [G] 2026-05-08 15:26:01 :: DEBUG :: BB.DISPATCHER :: Registered endpoint: reroll 
+INFO - [G] 2026-05-08 15:26:01 :: DEBUG :: BB.DISPATCHER :: Loading endpoint: src/lua/endpoints/buy.lua 
+INFO - [G] 2026-05-08 15:26:01 :: DEBUG :: BB.DISPATCHER :: Registered endpoint: buy 
+INFO - [G] 2026-05-08 15:26:01 :: DEBUG :: BB.DISPATCHER :: Loading endpoint: src/lua/endpoints/pack.lua 
+INFO - [G] 2026-05-08 15:26:01 :: DEBUG :: BB.DISPATCHER :: Registered endpoint: pack 
+INFO - [G] 2026-05-08 15:26:01 :: DEBUG :: BB.DISPATCHER :: Loading endpoint: src/lua/endpoints/rearrange.lua 
+INFO - [G] 2026-05-08 15:26:02 :: DEBUG :: BB.DISPATCHER :: Registered endpoint: rearrange 
+INFO - [G] 2026-05-08 15:26:02 :: DEBUG :: BB.DISPATCHER :: Loading endpoint: src/lua/endpoints/sell.lua 
+INFO - [G] 2026-05-08 15:26:02 :: DEBUG :: BB.DISPATCHER :: Registered endpoint: sell 
+INFO - [G] 2026-05-08 15:26:02 :: DEBUG :: BB.DISPATCHER :: Loading endpoint: src/lua/endpoints/use.lua 
+INFO - [G] 2026-05-08 15:26:02 :: DEBUG :: BB.DISPATCHER :: Registered endpoint: use 
+INFO - [G] 2026-05-08 15:26:02 :: DEBUG :: BB.DISPATCHER :: Loaded 21 endpoint(s) 
+INFO - [G] 2026-05-08 15:26:02 :: DEBUG :: BB.DISPATCHER :: Dispatcher initialized successfully 
+INFO - [G] 2026-05-08 15:26:02 :: INFO  :: BB.BALATROBOT :: BalatroBot loaded - version 1.4.0 
+INFO - [G] 2026-05-08 15:26:02 :: INFO  :: TIMER :: [0000] Injected Fonts in 0.004 ms 
+INFO - [G] 2026-05-08 15:26:02 :: INFO  :: TIMER :: [0000] Injected DynaTextEffects in 0.004 ms 
+INFO - [G] 2026-05-08 15:26:02 :: INFO  :: TIMER :: [0000] Injected Language in 0.003 ms 
+INFO - [G] 2026-05-08 15:26:02 :: INFO  :: TIMER :: [0000] Injected [INTERNAL] in 6.510 ms 
+INFO - [G] 2026-05-08 15:26:03 :: INFO  :: TIMER :: [0003] Injected Atlas in 732.188 ms 
+INFO - [G] 2026-05-08 15:26:03 :: INFO  :: TIMER :: [0001] Injected Sound in 0.799 ms 
+INFO - [G] 2026-05-08 15:26:03 :: INFO  :: TIMER :: [0002] Injected nil in 0.089 ms 
+INFO - [G] 2026-05-08 15:26:03 :: INFO  :: TIMER :: [0008] Injected Stake in 0.833 ms 
+INFO - [G] 2026-05-08 15:26:03 :: INFO  :: TIMER :: [0004] Injected Rarity in 0.140 ms 
+INFO - [G] 2026-05-08 15:26:03 :: INFO  :: TIMER :: [0004] Injected ObjectType in 0.342 ms 
+INFO - [G] 2026-05-08 15:26:03 :: INFO  :: TIMER :: [0050] Injected Center in 1.923 ms 
+INFO - [G] 2026-05-08 15:26:03 :: INFO  :: TIMER :: [0007] Injected Undiscovered Sprite in 0.183 ms 
+INFO - [G] 2026-05-08 15:26:03 :: INFO  :: TIMER :: [0002] Injected Blind in 0.055 ms 
+INFO - [G] 2026-05-08 15:26:03 :: INFO  :: TIMER :: [0004] Injected Seal in 0.592 ms 
+INFO - [G] 2026-05-08 15:26:03 :: INFO  :: TIMER :: [0004] Injected Suit in 0.255 ms 
+INFO - [G] 2026-05-08 15:26:03 :: INFO  :: TIMER :: [0013] Injected Rank in 1.043 ms 
+INFO - [G] 2026-05-08 15:26:03 :: INFO  :: TIMER :: [0028] Injected DeckSkin in 2.657 ms 
+INFO - [G] 2026-05-08 15:26:03 :: INFO  :: TIMER :: [0017] Injected JimboQuip in 2.796 ms 
+INFO - [G] 2026-05-08 15:26:03 :: INFO  :: TIMER :: [0012] Injected PokerHand in 0.848 ms 
+INFO - [G] 2026-05-08 15:26:03 :: INFO  :: TIMER :: [0020] Injected Challenge in 0.426 ms 
+INFO - [G] 2026-05-08 15:26:03 :: INFO  :: TIMER :: [0000] Injected Tag in 0.004 ms 
+INFO - [G] 2026-05-08 15:26:03 :: INFO  :: TIMER :: [0004] Injected Sticker in 0.294 ms 
+INFO - [G] 2026-05-08 15:26:03 :: INFO  :: TIMER :: [0000] Injected Shader in 0.004 ms 
+INFO - [G] 2026-05-08 15:26:03 :: INFO  :: TIMER :: [0002] Injected Keybind in 0.069 ms 
+INFO - [G] 2026-05-08 15:26:03 :: INFO  :: TIMER :: [0000] Injected Achievement in 0.080 ms 
+INFO - [G] 2026-05-08 15:26:03 :: INFO  :: TIMER :: [0002] Injected Scoring_Parameters in 0.553 ms 
+INFO - [G] 2026-05-08 15:26:03 :: INFO  :: TIMER :: [0003] Injected Scoring_Calculations in 0.037 ms 
+INFO - [G] 2026-05-08 15:26:03 :: INFO  :: TIMER :: [0021] Injected Draw Step in 0.318 ms 
+INFO - [G] 2026-05-08 15:26:03 :: INFO  :: TIMER :: [0000] Injected [INTERNAL] in 3.901 ms 
+Setting breakpad minidump AppID = 2379780
+SteamInternal_SetMinidumpSteamID:  Caching Steam ID:  76561198043879095 [API loaded no]
+INFO - [G] 2026-05-08 15:26:04 :: DEBUG :: BB.SERVER :: Client connected 
+INFO - [G] 2026-05-08 15:26:04 :: DEBUG :: BB.REQUEST :: health() 
+INFO - [G] 2026-05-08 15:26:04 :: DEBUG :: BB.ENDPOINTS :: Init health() 
+INFO - [G] 2026-05-08 15:26:04 :: DEBUG :: BB.ENDPOINTS :: Return health() 
+INFO - [G] 2026-05-08 15:26:04 :: DEBUG :: BB.RESPONSE :: health OK (0ms) 
+INFO - [G] [DebugPlus] Press [-] to toggle console and press [shift] + [-] to toggle new log previews 
+INFO - [G] 2026-05-08 15:26:05 :: DEBUG :: BB.SERVER :: Client connected 
+INFO - [G] 2026-05-08 15:26:05 :: DEBUG :: BB.REQUEST :: health() 
+INFO - [G] 2026-05-08 15:26:05 :: DEBUG :: BB.ENDPOINTS :: Init health() 
+INFO - [G] 2026-05-08 15:26:05 :: DEBUG :: BB.ENDPOINTS :: Return health() 
+INFO - [G] 2026-05-08 15:26:05 :: DEBUG :: BB.RESPONSE :: health OK (0ms) 
+INFO - [G] Pre error detection detached 
+INFO - [G] 2026-05-08 15:28:47 :: DEBUG :: BB.SERVER :: Client connected 
+INFO - [G] 2026-05-08 15:28:47 :: DEBUG :: BB.REQUEST :: menu() 
+INFO - [G] 2026-05-08 15:28:47 :: DEBUG :: BB.ENDPOINTS :: Init menu() 
+INFO - [G] 2026-05-08 15:28:47 :: DEBUG :: BB.ENDPOINTS :: Return menu() 
+INFO - [G] 2026-05-08 15:28:47 :: DEBUG :: BB.RESPONSE :: menu OK (18ms) 
+INFO - [G] 2026-05-08 15:28:47 :: DEBUG :: BB.SERVER :: Client connected 
+INFO - [G] 2026-05-08 15:28:47 :: DEBUG :: BB.REQUEST :: start({deck="RED", stake="WHITE"}) 
+INFO - [G] 2026-05-08 15:28:47 :: DEBUG :: BB.ENDPOINTS :: Init start() 
+INFO - [G] 2026-05-08 15:28:47 :: DEBUG :: BB.ENDPOINTS :: Setting deck to: Red Deck (from enum: RED) 
+INFO - [G] 2026-05-08 15:28:47 :: DEBUG :: BB.ENDPOINTS :: Starting run with stake=1 (WHITE), seed=none 
+INFO - [G] 2026-05-08 15:28:49 :: DEBUG :: BB.ENDPOINTS :: Return start() 
+INFO - [G] 2026-05-08 15:28:49 :: DEBUG :: BB.RESPONSE :: start OK (2639ms) 
+INFO - [G] 2026-05-08 15:28:49 :: DEBUG :: BB.SERVER :: Client connected 
+INFO - [G] 2026-05-08 15:28:49 :: DEBUG :: BB.REQUEST :: select() 
+INFO - [G] 2026-05-08 15:28:49 :: DEBUG :: BB.ENDPOINTS :: Init select() 
+INFO - [G] 2026-05-08 15:28:49 :: DEBUG :: BB.ENDPOINTS :: Selecting Small (Small Blind), chips required: ? 
+INFO - [G] 2026-05-08 15:28:51 :: DEBUG :: BB.ENDPOINTS :: Return select() 
+INFO - [G] 2026-05-08 15:28:51 :: DEBUG :: BB.RESPONSE :: select OK (1439ms) 
+INFO - [G] 2026-05-08 15:28:51 :: DEBUG :: BB.SERVER :: Client connected 
+INFO - [G] 2026-05-08 15:28:51 :: DEBUG :: BB.REQUEST :: play({cards=[0,1,2,3,4]}) 
+INFO - [G] 2026-05-08 15:28:51 :: DEBUG :: BB.ENDPOINTS :: Init play() 
+INFO - [G] 2026-05-08 15:28:51 :: DEBUG :: BB.ENDPOINTS :: Playing 5 cards: A♠, K♣, Q♥, 10♠, 8♥ 
+INFO - [G] 2026-05-08 15:28:55 :: DEBUG :: BB.ENDPOINTS :: Return play() - same round 
+INFO - [G] 2026-05-08 15:28:55 :: DEBUG :: BB.RESPONSE :: play OK (3667ms) 
+INFO - [G] 2026-05-08 15:28:55 :: DEBUG :: BB.SERVER :: Client connected 
+INFO - [G] 2026-05-08 15:28:55 :: DEBUG :: BB.REQUEST :: play({cards=[0,1,2,3,4]}) 
+INFO - [G] 2026-05-08 15:28:55 :: DEBUG :: BB.ENDPOINTS :: Init play() 
+INFO - [G] 2026-05-08 15:28:55 :: DEBUG :: BB.ENDPOINTS :: Playing 5 cards: J♠, 10♦, 5♠, 5♥, 4♠ 
+INFO - [G] 2026-05-08 15:28:59 :: DEBUG :: BB.ENDPOINTS :: Return play() - same round 
+INFO - [G] 2026-05-08 15:28:59 :: DEBUG :: BB.RESPONSE :: play OK (4571ms) 
+INFO - [G] 2026-05-08 15:28:59 :: DEBUG :: BB.SERVER :: Client connected 
+INFO - [G] 2026-05-08 15:28:59 :: DEBUG :: BB.REQUEST :: play({cards=[0,1,2,3,4]}) 
+INFO - [G] 2026-05-08 15:28:59 :: DEBUG :: BB.ENDPOINTS :: Init play() 
+INFO - [G] 2026-05-08 15:28:59 :: DEBUG :: BB.ENDPOINTS :: Playing 5 cards: A♣, K♠, K♦, 8♦, 7♠ 
+INFO - [G] 2026-05-08 15:29:04 :: DEBUG :: BB.ENDPOINTS :: Return play() - same round 
+INFO - [G] 2026-05-08 15:29:04 :: DEBUG :: BB.RESPONSE :: play OK (4771ms) 
+INFO - [G] 2026-05-08 15:29:04 :: DEBUG :: BB.SERVER :: Client connected 
+INFO - [G] 2026-05-08 15:29:04 :: DEBUG :: BB.REQUEST :: play({cards=[0,1,2,3,4]}) 
+INFO - [G] 2026-05-08 15:29:04 :: DEBUG :: BB.ENDPOINTS :: Init play() 
+INFO - [G] 2026-05-08 15:29:04 :: DEBUG :: BB.ENDPOINTS :: Playing 5 cards: A♥, A♦, 8♠, 5♦, 4♣ 
+INFO - [G] 2026-05-08 15:29:08 :: DEBUG :: BB.RESPONSE :: play OK (3827ms) 
+INFO - [G] 2026-05-08 15:29:30 :: DEBUG :: BB.SERVER :: Client connected 
+INFO - [G] 2026-05-08 15:29:30 :: DEBUG :: BB.REQUEST :: menu() 
+INFO - [G] 2026-05-08 15:29:30 :: DEBUG :: BB.ENDPOINTS :: Init menu() 
+INFO - [G] 2026-05-08 15:29:34 :: DEBUG :: BB.ENDPOINTS :: Return menu() 
+INFO - [G] 2026-05-08 15:29:34 :: DEBUG :: BB.RESPONSE :: menu OK (3927ms) 
+INFO - [G] 2026-05-08 15:29:34 :: DEBUG :: BB.SERVER :: Client connected 
+INFO - [G] 2026-05-08 15:29:34 :: DEBUG :: BB.REQUEST :: start({deck="RED", stake="WHITE"}) 
+INFO - [G] 2026-05-08 15:29:34 :: DEBUG :: BB.ENDPOINTS :: Init start() 
+INFO - [G] 2026-05-08 15:29:34 :: DEBUG :: BB.ENDPOINTS :: Setting deck to: Red Deck (from enum: RED) 
+INFO - [G] 2026-05-08 15:29:34 :: DEBUG :: BB.ENDPOINTS :: Starting run with stake=1 (WHITE), seed=none 
+INFO - [G] 2026-05-08 15:29:37 :: DEBUG :: BB.ENDPOINTS :: Return start() 
+INFO - [G] 2026-05-08 15:29:37 :: DEBUG :: BB.RESPONSE :: start OK (2549ms) 
+INFO - [G] 2026-05-08 15:29:37 :: DEBUG :: BB.SERVER :: Client connected 
+INFO - [G] 2026-05-08 15:29:37 :: DEBUG :: BB.REQUEST :: select() 
+INFO - [G] 2026-05-08 15:29:37 :: DEBUG :: BB.ENDPOINTS :: Init select() 
+INFO - [G] 2026-05-08 15:29:37 :: DEBUG :: BB.ENDPOINTS :: Selecting Small (Small Blind), chips required: ? 
+INFO - [G] 2026-05-08 15:29:38 :: DEBUG :: BB.ENDPOINTS :: Return select() 
+INFO - [G] 2026-05-08 15:29:38 :: DEBUG :: BB.RESPONSE :: select OK (1187ms) 
+INFO - [G] 2026-05-08 15:29:38 :: DEBUG :: BB.SERVER :: Client connected 
+INFO - [G] 2026-05-08 15:29:38 :: DEBUG :: BB.REQUEST :: play({cards=[0,1,2,3,4]}) 
+INFO - [G] 2026-05-08 15:29:38 :: DEBUG :: BB.ENDPOINTS :: Init play() 
+INFO - [G] 2026-05-08 15:29:38 :: DEBUG :: BB.ENDPOINTS :: Playing 5 cards: J♦, 10♥, 9♠, 6♥, 5♥ 
+INFO - [G] 2026-05-08 15:29:41 :: DEBUG :: BB.ENDPOINTS :: Return play() - same round 
+INFO - [G] 2026-05-08 15:29:41 :: DEBUG :: BB.RESPONSE :: play OK (3305ms) 
+INFO - [G] 2026-05-08 15:29:42 :: DEBUG :: BB.SERVER :: Client connected 
+INFO - [G] 2026-05-08 15:29:42 :: DEBUG :: BB.REQUEST :: play({cards=[0,1,2,3,4]}) 
+INFO - [G] 2026-05-08 15:29:42 :: DEBUG :: BB.ENDPOINTS :: Init play() 
+INFO - [G] 2026-05-08 15:29:42 :: DEBUG :: BB.ENDPOINTS :: Playing 5 cards: K♦, J♥, J♣, 8♥, 5♣ 
+INFO - [G] 2026-05-08 15:29:45 :: DEBUG :: BB.ENDPOINTS :: Return play() - same round 
+INFO - [G] 2026-05-08 15:29:45 :: DEBUG :: BB.RESPONSE :: play OK (3445ms) 
+INFO - [G] 2026-05-08 15:29:45 :: DEBUG :: BB.SERVER :: Client connected 
+INFO - [G] 2026-05-08 15:29:45 :: DEBUG :: BB.REQUEST :: play({cards=[0,1,2,3,4]}) 
+INFO - [G] 2026-05-08 15:29:45 :: DEBUG :: BB.ENDPOINTS :: Init play() 
+INFO - [G] 2026-05-08 15:29:45 :: DEBUG :: BB.ENDPOINTS :: Playing 5 cards: Q♥, 9♦, 6♣, 5♦, 4♦ 
+INFO - [G] 2026-05-08 15:29:48 :: DEBUG :: BB.ENDPOINTS :: Return play() - same round 
+INFO - [G] 2026-05-08 15:29:48 :: DEBUG :: BB.RESPONSE :: play OK (3367ms) 
+INFO - [G] 2026-05-08 15:29:48 :: DEBUG :: BB.SERVER :: Client connected 
+INFO - [G] 2026-05-08 15:29:48 :: DEBUG :: BB.REQUEST :: play({cards=[0,1,2,3,4]}) 
+INFO - [G] 2026-05-08 15:29:48 :: DEBUG :: BB.ENDPOINTS :: Init play() 
+INFO - [G] 2026-05-08 15:29:48 :: DEBUG :: BB.ENDPOINTS :: Playing 5 cards: A♠, K♠, 10♣, 6♠, 3♥ 
+INFO - [G] 2026-05-08 15:29:49 :: DEBUG :: BB.SERVER :: Client connected 
+INFO - [G] 2026-05-08 15:29:49 :: DEBUG :: BB.REQUEST :: menu() 
+INFO - [G] 2026-05-08 15:29:49 :: DEBUG :: BB.ENDPOINTS :: Init menu() 
+INFO - [G] 2026-05-08 15:29:53 :: DEBUG :: BB.ENDPOINTS :: Return menu() 
+INFO - [G] 2026-05-08 15:29:53 :: DEBUG :: BB.RESPONSE :: menu OK (3957ms) 
+INFO - [G] 2026-05-08 15:29:53 :: DEBUG :: BB.SERVER :: Client connected 
+INFO - [G] 2026-05-08 15:29:53 :: DEBUG :: BB.REQUEST :: start({deck="RED", stake="WHITE"}) 
+INFO - [G] 2026-05-08 15:29:53 :: DEBUG :: BB.ENDPOINTS :: Init start() 
+INFO - [G] 2026-05-08 15:29:53 :: DEBUG :: BB.ENDPOINTS :: Setting deck to: Red Deck (from enum: RED) 
+INFO - [G] 2026-05-08 15:29:53 :: DEBUG :: BB.ENDPOINTS :: Starting run with stake=1 (WHITE), seed=none 
+INFO - [G] 2026-05-08 15:29:56 :: DEBUG :: BB.ENDPOINTS :: Return start() 
+INFO - [G] 2026-05-08 15:29:56 :: DEBUG :: BB.RESPONSE :: start OK (2482ms) 
+INFO - [G] 2026-05-08 15:29:56 :: DEBUG :: BB.SERVER :: Client connected 
+INFO - [G] 2026-05-08 15:29:56 :: DEBUG :: BB.REQUEST :: select() 
+INFO - [G] 2026-05-08 15:29:56 :: DEBUG :: BB.ENDPOINTS :: Init select() 
+INFO - [G] 2026-05-08 15:29:56 :: DEBUG :: BB.ENDPOINTS :: Selecting Small (Small Blind), chips required: ? 
+INFO - [G] 2026-05-08 15:29:57 :: DEBUG :: BB.ENDPOINTS :: Return select() 
+INFO - [G] 2026-05-08 15:29:57 :: DEBUG :: BB.RESPONSE :: select OK (1170ms) 
+INFO - [G] 2026-05-08 15:29:57 :: DEBUG :: BB.SERVER :: Client connected 
+INFO - [G] 2026-05-08 15:29:57 :: DEBUG :: BB.REQUEST :: play({cards=[0,1,2,3,4]}) 
+INFO - [G] 2026-05-08 15:29:57 :: DEBUG :: BB.ENDPOINTS :: Init play() 
+INFO - [G] 2026-05-08 15:29:57 :: DEBUG :: BB.ENDPOINTS :: Playing 5 cards: J♦, 10♥, 9♠, 6♥, 5♥ 
+INFO - [G] 2026-05-08 15:30:00 :: DEBUG :: BB.ENDPOINTS :: Return play() - same round 
+INFO - [G] 2026-05-08 15:30:00 :: DEBUG :: BB.RESPONSE :: play OK (3042ms) 
+INFO - [G] 2026-05-08 15:30:00 :: DEBUG :: BB.SERVER :: Client connected 
+INFO - [G] 2026-05-08 15:30:00 :: DEBUG :: BB.REQUEST :: play({cards=[0,1,2,3,4]}) 
+INFO - [G] 2026-05-08 15:30:00 :: DEBUG :: BB.ENDPOINTS :: Init play() 
+INFO - [G] 2026-05-08 15:30:00 :: DEBUG :: BB.ENDPOINTS :: Playing 5 cards: K♦, J♥, J♣, 8♥, 5♣ 
+INFO - [G] 2026-05-08 15:30:03 :: DEBUG :: BB.ENDPOINTS :: Return play() - same round 
+INFO - [G] 2026-05-08 15:30:03 :: DEBUG :: BB.RESPONSE :: play OK (3370ms) 
+INFO - [G] 2026-05-08 15:30:03 :: DEBUG :: BB.SERVER :: Client connected 
+INFO - [G] 2026-05-08 15:30:03 :: DEBUG :: BB.REQUEST :: play({cards=[0,1,2,3,4]}) 
+INFO - [G] 2026-05-08 15:30:03 :: DEBUG :: BB.ENDPOINTS :: Init play() 
+INFO - [G] 2026-05-08 15:30:03 :: DEBUG :: BB.ENDPOINTS :: Playing 5 cards: Q♥, 9♦, 6♣, 5♦, 4♦ 
+INFO - [G] 2026-05-08 15:30:06 :: DEBUG :: BB.ENDPOINTS :: Return play() - same round 
+INFO - [G] 2026-05-08 15:30:06 :: DEBUG :: BB.RESPONSE :: play OK (3017ms) 
+INFO - [G] 2026-05-08 15:30:06 :: DEBUG :: BB.SERVER :: Client connected 
+INFO - [G] 2026-05-08 15:30:06 :: DEBUG :: BB.REQUEST :: play({cards=[0,1,2,3,4]}) 
+INFO - [G] 2026-05-08 15:30:06 :: DEBUG :: BB.ENDPOINTS :: Init play() 
+INFO - [G] 2026-05-08 15:30:06 :: DEBUG :: BB.ENDPOINTS :: Playing 5 cards: A♠, K♠, 10♣, 6♠, 3♥ 
+INFO - [G] 2026-05-08 15:30:09 :: DEBUG :: BB.RESPONSE :: play OK (2597ms) 
