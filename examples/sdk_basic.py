@@ -13,7 +13,7 @@ This script demonstrates the high-level BalatroSession API and how to use
 it to automate gameplay. Compare with examples/bot.py which uses raw JSON-RPC calls.
 """
 
-from balatro import BalatroSession, GreedyStrategy, Deck, Stake, run_game_with_strategy
+from balatro import BalatroSession, Deck, Stake
 
 
 def simple_game_loop():
@@ -82,26 +82,6 @@ def simple_game_loop():
         print(f"Final score: {final_state['score']}\n")
         
         return final_state.get("won", False)
-
-
-def strategy_based_game():
-    """Play a game using a pre-built strategy."""
-    print("=== Strategy-Based Game (GreedyStrategy) ===\n")
-    
-    with BalatroSession() as session:
-        # Create a greedy strategy
-        strategy = GreedyStrategy()
-        
-        # Run the game
-        result = run_game_with_strategy(
-            session,
-            strategy,
-            max_rounds=20,
-            verbose=True,
-        )
-        
-        print(f"\nGame Result: {result}\n")
-        return result.get("won", False)
 
 
 def api_level_example():
@@ -180,7 +160,6 @@ def compare_apis():
     print("✓ State validation (can't play cards in wrong phase)")
     print("✓ Context manager support (automatic cleanup)")
     print("✓ Logging and debugging")
-    print("✓ Reusable strategies")
     print()
 
 
@@ -201,12 +180,6 @@ if __name__ == "__main__":
         simple_game_loop()
     except Exception as e:
         print(f"Session example failed: {e}\n")
-    
-    try:
-        # Try strategy-based gameplay
-        strategy_based_game()
-    except Exception as e:
-        print(f"Strategy example failed: {e}\n")
     
     try:
         # Try API-level example
