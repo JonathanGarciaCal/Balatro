@@ -332,6 +332,56 @@ class TestBalatroAPI:
         assert result == mock_spec
         mock_call.assert_called_once_with("rpc.discover")
 
+    @patch.object(BalatroClient, "call")
+    def test_playable_cards_returns_visible_indices(self, mock_call):
+        """Test playable_cards returns visible hand card indices in SELECTING_HAND."""
+        mock_call.return_value = {
+            "state": "SELECTING_HAND",
+            "hand": {
+                "cards": [
+                    {"key": "H_A", "state": {"hidden": False, "debuff": False}},
+                    {"key": "H_K", "state": {"hidden": True, "debuff": False}},
+                    {"key": "H_Q", "state": {"hidden": False, "debuff": True}},
+                ]
+            },
+        }
+
+        api = BalatroAPI()
+        result = api.playable_cards()
+
+        assert result == [0, 2]
+        mock_call.assert_called_once_with("gamestate")
+
+    @patch.object(BalatroClient, "call")
+    def test_playable_cards_excludes_debuffed_when_requested(self, mock_call):
+        """Test playable_cards can filter out debuffed cards."""
+        mock_call.return_value = {
+            "state": "SELECTING_HAND",
+            "hand": {
+                "cards": [
+                    {"key": "H_A", "state": {"hidden": False, "debuff": False}},
+                    {"key": "H_Q", "state": {"hidden": False, "debuff": True}},
+                ]
+            },
+        }
+
+        api = BalatroAPI()
+        result = api.playable_cards(include_debuffed=False)
+
+        assert result == [0]
+        mock_call.assert_called_once_with("gamestate")
+
+    @patch.object(BalatroClient, "call")
+    def test_playable_cards_returns_empty_outside_selecting_hand(self, mock_call):
+        """Test playable_cards returns empty list when not in SELECTING_HAND."""
+        mock_call.return_value = {"state": "SHOP"}
+
+        api = BalatroAPI()
+        result = api.playable_cards()
+
+        assert result == []
+        mock_call.assert_called_once_with("gamestate")
+
 
 if __name__ == "__main__":
     pytest.main([__file__, "-v"])

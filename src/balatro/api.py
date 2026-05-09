@@ -118,6 +118,47 @@ class BalatroAPI:
             GameState: Game state after play
         """
         return self.client.call("play", {"cards": cards})
+
+    def hand(self) -> dict:
+        """
+        Get the current hand object.
+
+        Returns:
+            dict: Hand object with count, limit, and cards
+        """
+        state = self.gamestate()
+        return state.get("hand", {})
+
+    def playable_cards(self, include_debuffed: bool = True) -> list[int]:
+        """
+        Get 0-based indices of hand cards currently playable on screen.
+
+        This helper reads the latest game state and returns visible hand card indices
+        when in SELECTING_HAND. Cards marked hidden are excluded.
+
+        Args:
+            include_debuffed: If False, exclude cards with state.debuff=True
+
+        Returns:
+            list[int]: Playable card indices from hand.cards
+        """
+        state = self.gamestate()
+        if state.get("state") != "SELECTING_HAND":
+            return []
+
+        hand_cards = state.get("hand", {}).get("cards", [])
+        playable_indices: list[int] = []
+
+        for idx, card in enumerate(hand_cards):
+            card_state = card.get("state") if isinstance(card, dict) else None
+            if isinstance(card_state, dict):
+                if card_state.get("hidden", False):
+                    continue
+                if not include_debuffed and card_state.get("debuff", False):
+                    continue
+            playable_indices.append(idx)
+
+        return playable_indices
     
     def cash_out(self) -> GameState:
         """
