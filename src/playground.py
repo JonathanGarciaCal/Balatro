@@ -194,11 +194,12 @@ def run_all_examples():
         print(f"\nError: {e}")
         import traceback
         traceback.print_exc()
-#%%
+
 
 if __name__ == "__main__":
+    api = BalatroAPI()
     # Run specific examples
-    run_all_examples()
+    # run_all_examples()
 
     # Or try individual examples:
     # example_basic_game()
@@ -207,3 +208,5 @@ if __name__ == "__main__":
     # example_rerolling()
     # example_debug_operations()
     # example_api_discovery()
+
+# %%

@@ -1,13 +1,1012 @@
 {
+  "cards": {
+    "count": 44,
+    "limit": 52,
+    "cards": [
+      {
+        "id": 377,
+        "state": {
+          "hidden": true
+        },
+        "label": "Base Card",
+        "set": "DEFAULT",
+        "modifier": [],
+        "value": {
+          "rank": "5",
+          "effect": "+5 chips",
+          "suit": "H"
+        },
+        "key": "H_5",
+        "cost": {
+          "buy": 1,
+          "sell": 1
+        }
+      },
+      {
+        "id": 365,
+        "state": {
+          "hidden": true
+        },
+        "label": "Base Card",
+        "set": "DEFAULT",
+        "modifier": [],
+        "value": {
+          "rank": "6",
+          "effect": "+6 chips",
+          "suit": "D"
+        },
+        "key": "D_6",
+        "cost": {
+          "buy": 1,
+          "sell": 1
+        }
+      },
+      {
+        "id": 375,
+        "state": {
+          "hidden": true
+        },
+        "label": "Base Card",
+        "set": "DEFAULT",
+        "modifier": [],
+        "value": {
+          "rank": "3",
+          "effect": "+3 chips",
+          "suit": "H"
+        },
+        "key": "H_3",
+        "cost": {
+          "buy": 1,
+          "sell": 1
+        }
+      },
+      {
+        "id": 398,
+        "state": {
+          "hidden": true
+        },
+        "label": "Base Card",
+        "set": "DEFAULT",
+        "modifier": [],
+        "value": {
+          "rank": "Q",
+          "effect": "+10 chips",
+          "suit": "S"
+        },
+        "key": "S_Q",
+        "cost": {
+          "buy": 1,
+          "sell": 1
+        }
+      },
+      {
+        "id": 356,
+        "state": {
+          "hidden": true
+        },
+        "label": "Base Card",
+        "set": "DEFAULT",
+        "modifier": [],
+        "value": {
+          "rank": "A",
+          "effect": "+11 chips",
+          "suit": "C"
+        },
+        "key": "C_A",
+        "cost": {
+          "buy": 1,
+          "sell": 1
+        }
+      },
+      {
+        "id": 386,
+        "state": {
+          "hidden": true
+        },
+        "label": "Base Card",
+        "set": "DEFAULT",
+        "modifier": [],
+        "value": {
+          "rank": "T",
+          "effect": "+10 chips",
+          "suit": "H"
+        },
+        "key": "H_T",
+        "cost": {
+          "buy": 1,
+          "sell": 1
+        }
+      },
+      {
+        "id": 357,
+        "state": {
+          "hidden": true
+        },
+        "label": "Base Card",
+        "set": "DEFAULT",
+        "modifier": [],
+        "value": {
+          "rank": "J",
+          "effect": "+10 chips",
+          "suit": "C"
+        },
+        "key": "C_J",
+        "cost": {
+          "buy": 1,
+          "sell": 1
+        }
+      },
+      {
+        "id": 396,
+        "state": {
+          "hidden": true
+        },
+        "label": "Base Card",
+        "set": "DEFAULT",
+        "modifier": [],
+        "value": {
+          "rank": "J",
+          "effect": "+10 chips",
+          "suit": "S"
+        },
+        "key": "S_J",
+        "cost": {
+          "buy": 1,
+          "sell": 1
+        }
+      },
+      {
+        "id": 352,
+        "state": {
+          "hidden": true
+        },
+        "label": "Base Card",
+        "set": "DEFAULT",
+        "modifier": [],
+        "value": {
+          "rank": "6",
+          "effect": "+6 chips",
+          "suit": "C"
+        },
+        "key": "C_6",
+        "cost": {
+          "buy": 1,
+          "sell": 1
+        }
+      },
+      {
+        "id": 385,
+        "state": {
+          "hidden": true
+        },
+        "label": "Base Card",
+        "set": "DEFAULT",
+        "modifier": [],
+        "value": {
+          "rank": "Q",
+          "effect": "+10 chips",
+          "suit": "H"
+        },
+        "key": "H_Q",
+        "cost": {
+          "buy": 1,
+          "sell": 1
+        }
+      },
+      {
+        "id": 388,
+        "state": {
+          "hidden": true
+        },
+        "label": "Base Card",
+        "set": "DEFAULT",
+        "modifier": [],
+        "value": {
+          "rank": "3",
+          "effect": "+3 chips",
+          "suit": "S"
+        },
+        "key": "S_3",
+        "cost": {
+          "buy": 1,
+          "sell": 1
+        }
+      },
+      {
+        "id": 360,
+        "state": {
+          "hidden": true
+        },
+        "label": "Base Card",
+        "set": "DEFAULT",
+        "modifier": [],
+        "value": {
+          "rank": "T",
+          "effect": "+10 chips",
+          "suit": "C"
+        },
+        "key": "C_T",
+        "cost": {
+          "buy": 1,
+          "sell": 1
+        }
+      },
+      {
+        "id": 383,
+        "state": {
+          "hidden": true
+        },
+        "label": "Base Card",
+        "set": "DEFAULT",
+        "modifier": [],
+        "value": {
+          "rank": "J",
+          "effect": "+10 chips",
+          "suit": "H"
+        },
+        "key": "H_J",
+        "cost": {
+          "buy": 1,
+          "sell": 1
+        }
+      },
+      {
+        "id": 391,
+        "state": {
+          "hidden": true
+        },
+        "label": "Base Card",
+        "set": "DEFAULT",
+        "modifier": [],
+        "value": {
+          "rank": "6",
+          "effect": "+6 chips",
+          "suit": "S"
+        },
+        "key": "S_6",
+        "cost": {
+          "buy": 1,
+          "sell": 1
+        }
+      },
+      {
+        "id": 393,
+        "state": {
+          "hidden": true
+        },
+        "label": "Base Card",
+        "set": "DEFAULT",
+        "modifier": [],
+        "value": {
+          "rank": "8",
+          "effect": "+8 chips",
+          "suit": "S"
+        },
+        "key": "S_8",
+        "cost": {
+          "buy": 1,
+          "sell": 1
+        }
+      },
+      {
+        "id": 362,
+        "state": {
+          "hidden": true
+        },
+        "label": "Base Card",
+        "set": "DEFAULT",
+        "modifier": [],
+        "value": {
+          "rank": "3",
+          "effect": "+3 chips",
+          "suit": "D"
+        },
+        "key": "D_3",
+        "cost": {
+          "buy": 1,
+          "sell": 1
+        }
+      },
+      {
+        "id": 395,
+        "state": {
+          "hidden": true
+        },
+        "label": "Base Card",
+        "set": "DEFAULT",
+        "modifier": [],
+        "value": {
+          "rank": "A",
+          "effect": "+11 chips",
+          "suit": "S"
+        },
+        "key": "S_A",
+        "cost": {
+          "buy": 1,
+          "sell": 1
+        }
+      },
+      {
+        "id": 367,
+        "state": {
+          "hidden": true
+        },
+        "label": "Base Card",
+        "set": "DEFAULT",
+        "modifier": [],
+        "value": {
+          "rank": "8",
+          "effect": "+8 chips",
+          "suit": "D"
+        },
+        "key": "D_8",
+        "cost": {
+          "buy": 1,
+          "sell": 1
+        }
+      },
+      {
+        "id": 397,
+        "state": {
+          "hidden": true
+        },
+        "label": "Base Card",
+        "set": "DEFAULT",
+        "modifier": [],
+        "value": {
+          "rank": "K",
+          "effect": "+10 chips",
+          "suit": "S"
+        },
+        "key": "S_K",
+        "cost": {
+          "buy": 1,
+          "sell": 1
+        }
+      },
+      {
+        "id": 392,
+        "state": {
+          "hidden": true
+        },
+        "label": "Base Card",
+        "set": "DEFAULT",
+        "modifier": [],
+        "value": {
+          "rank": "7",
+          "effect": "+7 chips",
+          "suit": "S"
+        },
+        "key": "S_7",
+        "cost": {
+          "buy": 1,
+          "sell": 1
+        }
+      },
+      {
+        "id": 394,
+        "state": {
+          "hidden": true
+        },
+        "label": "Base Card",
+        "set": "DEFAULT",
+        "modifier": [],
+        "value": {
+          "rank": "9",
+          "effect": "+9 chips",
+          "suit": "S"
+        },
+        "key": "S_9",
+        "cost": {
+          "buy": 1,
+          "sell": 1
+        }
+      },
+      {
+        "id": 350,
+        "state": {
+          "hidden": true
+        },
+        "label": "Base Card",
+        "set": "DEFAULT",
+        "modifier": [],
+        "value": {
+          "rank": "4",
+          "effect": "+4 chips",
+          "suit": "C"
+        },
+        "key": "C_4",
+        "cost": {
+          "buy": 1,
+          "sell": 1
+        }
+      },
+      {
+        "id": 399,
+        "state": {
+          "hidden": true
+        },
+        "label": "Base Card",
+        "set": "DEFAULT",
+        "modifier": [],
+        "value": {
+          "rank": "T",
+          "effect": "+10 chips",
+          "suit": "S"
+        },
+        "key": "S_T",
+        "cost": {
+          "buy": 1,
+          "sell": 1
+        }
+      },
+      {
+        "id": 358,
+        "state": {
+          "hidden": true
+        },
+        "label": "Base Card",
+        "set": "DEFAULT",
+        "modifier": [],
+        "value": {
+          "rank": "K",
+          "effect": "+10 chips",
+          "suit": "C"
+        },
+        "key": "C_K",
+        "cost": {
+          "buy": 1,
+          "sell": 1
+        }
+      },
+      {
+        "id": 376,
+        "state": {
+          "hidden": true
+        },
+        "label": "Base Card",
+        "set": "DEFAULT",
+        "modifier": [],
+        "value": {
+          "rank": "4",
+          "effect": "+4 chips",
+          "suit": "H"
+        },
+        "key": "H_4",
+        "cost": {
+          "buy": 1,
+          "sell": 1
+        }
+      },
+      {
+        "id": 381,
+        "state": {
+          "hidden": true
+        },
+        "label": "Base Card",
+        "set": "DEFAULT",
+        "modifier": [],
+        "value": {
+          "rank": "9",
+          "effect": "+9 chips",
+          "suit": "H"
+        },
+        "key": "H_9",
+        "cost": {
+          "buy": 1,
+          "sell": 1
+        }
+      },
+      {
+        "id": 390,
+        "state": {
+          "hidden": true
+        },
+        "label": "Base Card",
+        "set": "DEFAULT",
+        "modifier": [],
+        "value": {
+          "rank": "5",
+          "effect": "+5 chips",
+          "suit": "S"
+        },
+        "key": "S_5",
+        "cost": {
+          "buy": 1,
+          "sell": 1
+        }
+      },
+      {
+        "id": 384,
+        "state": {
+          "hidden": true
+        },
+        "label": "Base Card",
+        "set": "DEFAULT",
+        "modifier": [],
+        "value": {
+          "rank": "K",
+          "effect": "+10 chips",
+          "suit": "H"
+        },
+        "key": "H_K",
+        "cost": {
+          "buy": 1,
+          "sell": 1
+        }
+      },
+      {
+        "id": 368,
+        "state": {
+          "hidden": true
+        },
+        "label": "Base Card",
+        "set": "DEFAULT",
+        "modifier": [],
+        "value": {
+          "rank": "9",
+          "effect": "+9 chips",
+          "suit": "D"
+        },
+        "key": "D_9",
+        "cost": {
+          "buy": 1,
+          "sell": 1
+        }
+      },
+      {
+        "id": 364,
+        "state": {
+          "hidden": true
+        },
+        "label": "Base Card",
+        "set": "DEFAULT",
+        "modifier": [],
+        "value": {
+          "rank": "5",
+          "effect": "+5 chips",
+          "suit": "D"
+        },
+        "key": "D_5",
+        "cost": {
+          "buy": 1,
+          "sell": 1
+        }
+      },
+      {
+        "id": 348,
+        "state": {
+          "hidden": true
+        },
+        "label": "Base Card",
+        "set": "DEFAULT",
+        "modifier": [],
+        "value": {
+          "rank": "2",
+          "effect": "+2 chips",
+          "suit": "C"
+        },
+        "key": "C_2",
+        "cost": {
+          "buy": 1,
+          "sell": 1
+        }
+      },
+      {
+        "id": 355,
+        "state": {
+          "hidden": true
+        },
+        "label": "Base Card",
+        "set": "DEFAULT",
+        "modifier": [],
+        "value": {
+          "rank": "9",
+          "effect": "+9 chips",
+          "suit": "C"
+        },
+        "key": "C_9",
+        "cost": {
+          "buy": 1,
+          "sell": 1
+        }
+      },
+      {
+        "id": 389,
+        "state": {
+          "hidden": true
+        },
+        "label": "Base Card",
+        "set": "DEFAULT",
+        "modifier": [],
+        "value": {
+          "rank": "4",
+          "effect": "+4 chips",
+          "suit": "S"
+        },
+        "key": "S_4",
+        "cost": {
+          "buy": 1,
+          "sell": 1
+        }
+      },
+      {
+        "id": 387,
+        "state": {
+          "hidden": true
+        },
+        "label": "Base Card",
+        "set": "DEFAULT",
+        "modifier": [],
+        "value": {
+          "rank": "2",
+          "effect": "+2 chips",
+          "suit": "S"
+        },
+        "key": "S_2",
+        "cost": {
+          "buy": 1,
+          "sell": 1
+        }
+      },
+      {
+        "id": 371,
+        "state": {
+          "hidden": true
+        },
+        "label": "Base Card",
+        "set": "DEFAULT",
+        "modifier": [],
+        "value": {
+          "rank": "K",
+          "effect": "+10 chips",
+          "suit": "D"
+        },
+        "key": "D_K",
+        "cost": {
+          "buy": 1,
+          "sell": 1
+        }
+      },
+      {
+        "id": 363,
+        "state": {
+          "hidden": true
+        },
+        "label": "Base Card",
+        "set": "DEFAULT",
+        "modifier": [],
+        "value": {
+          "rank": "4",
+          "effect": "+4 chips",
+          "suit": "D"
+        },
+        "key": "D_4",
+        "cost": {
+          "buy": 1,
+          "sell": 1
+        }
+      },
+      {
+        "id": 374,
+        "state": {
+          "hidden": true
+        },
+        "label": "Base Card",
+        "set": "DEFAULT",
+        "modifier": [],
+        "value": {
+          "rank": "2",
+          "effect": "+2 chips",
+          "suit": "H"
+        },
+        "key": "H_2",
+        "cost": {
+          "buy": 1,
+          "sell": 1
+        }
+      },
+      {
+        "id": 372,
+        "state": {
+          "hidden": true
+        },
+        "label": "Base Card",
+        "set": "DEFAULT",
+        "modifier": [],
+        "value": {
+          "rank": "Q",
+          "effect": "+10 chips",
+          "suit": "D"
+        },
+        "key": "D_Q",
+        "cost": {
+          "buy": 1,
+          "sell": 1
+        }
+      },
+      {
+        "id": 373,
+        "state": {
+          "hidden": true
+        },
+        "label": "Base Card",
+        "set": "DEFAULT",
+        "modifier": [],
+        "value": {
+          "rank": "T",
+          "effect": "+10 chips",
+          "suit": "D"
+        },
+        "key": "D_T",
+        "cost": {
+          "buy": 1,
+          "sell": 1
+        }
+      },
+      {
+        "id": 380,
+        "state": {
+          "hidden": true
+        },
+        "label": "Base Card",
+        "set": "DEFAULT",
+        "modifier": [],
+        "value": {
+          "rank": "8",
+          "effect": "+8 chips",
+          "suit": "H"
+        },
+        "key": "H_8",
+        "cost": {
+          "buy": 1,
+          "sell": 1
+        }
+      },
+      {
+        "id": 361,
+        "state": {
+          "hidden": true
+        },
+        "label": "Base Card",
+        "set": "DEFAULT",
+        "modifier": [],
+        "value": {
+          "rank": "2",
+          "effect": "+2 chips",
+          "suit": "D"
+        },
+        "key": "D_2",
+        "cost": {
+          "buy": 1,
+          "sell": 1
+        }
+      },
+      {
+        "id": 366,
+        "state": {
+          "hidden": true
+        },
+        "label": "Base Card",
+        "set": "DEFAULT",
+        "modifier": [],
+        "value": {
+          "rank": "7",
+          "effect": "+7 chips",
+          "suit": "D"
+        },
+        "key": "D_7",
+        "cost": {
+          "buy": 1,
+          "sell": 1
+        }
+      },
+      {
+        "id": 379,
+        "state": {
+          "hidden": true
+        },
+        "label": "Base Card",
+        "set": "DEFAULT",
+        "modifier": [],
+        "value": {
+          "rank": "7",
+          "effect": "+7 chips",
+          "suit": "H"
+        },
+        "key": "H_7",
+        "cost": {
+          "buy": 1,
+          "sell": 1
+        }
+      },
+      {
+        "id": 382,
+        "state": {
+          "hidden": true
+        },
+        "label": "Base Card",
+        "set": "DEFAULT",
+        "modifier": [],
+        "value": {
+          "rank": "A",
+          "effect": "+11 chips",
+          "suit": "H"
+        },
+        "key": "H_A",
+        "cost": {
+          "buy": 1,
+          "sell": 1
+        }
+      }
+    ],
+    "highlighted_limit": 5
+  },
+  "seed": "AF34AIIC",
   "ante_num": 1,
   "won": false,
   "deck": "RED",
   "stake": "WHITE",
+  "hand": {
+    "count": 8,
+    "limit": 8,
+    "cards": [
+      {
+        "id": 369,
+        "state": [],
+        "label": "Base Card",
+        "set": "DEFAULT",
+        "modifier": [],
+        "value": {
+          "rank": "A",
+          "effect": "+11 chips",
+          "suit": "D"
+        },
+        "key": "D_A",
+        "cost": {
+          "buy": 1,
+          "sell": 1
+        }
+      },
+      {
+        "id": 359,
+        "state": [],
+        "label": "Base Card",
+        "set": "DEFAULT",
+        "modifier": [],
+        "value": {
+          "rank": "Q",
+          "effect": "+10 chips",
+          "suit": "C"
+        },
+        "key": "C_Q",
+        "cost": {
+          "buy": 1,
+          "sell": 1
+        }
+      },
+      {
+        "id": 370,
+        "state": [],
+        "label": "Base Card",
+        "set": "DEFAULT",
+        "modifier": [],
+        "value": {
+          "rank": "J",
+          "effect": "+10 chips",
+          "suit": "D"
+        },
+        "key": "D_J",
+        "cost": {
+          "buy": 1,
+          "sell": 1
+        }
+      },
+      {
+        "id": 354,
+        "state": [],
+        "label": "Base Card",
+        "set": "DEFAULT",
+        "modifier": [],
+        "value": {
+          "rank": "8",
+          "effect": "+8 chips",
+          "suit": "C"
+        },
+        "key": "C_8",
+        "cost": {
+          "buy": 1,
+          "sell": 1
+        }
+      },
+      {
+        "id": 353,
+        "state": [],
+        "label": "Base Card",
+        "set": "DEFAULT",
+        "modifier": [],
+        "value": {
+          "rank": "7",
+          "effect": "+7 chips",
+          "suit": "C"
+        },
+        "key": "C_7",
+        "cost": {
+          "buy": 1,
+          "sell": 1
+        }
+      },
+      {
+        "id": 378,
+        "state": [],
+        "label": "Base Card",
+        "set": "DEFAULT",
+        "modifier": [],
+        "value": {
+          "rank": "6",
+          "effect": "+6 chips",
+          "suit": "H"
+        },
+        "key": "H_6",
+        "cost": {
+          "buy": 1,
+          "sell": 1
+        }
+      },
+      {
+        "id": 351,
+        "state": [],
+        "label": "Base Card",
+        "set": "DEFAULT",
+        "modifier": [],
+        "value": {
+          "rank": "5",
+          "effect": "+5 chips",
+          "suit": "C"
+        },
+        "key": "C_5",
+        "cost": {
+          "buy": 1,
+          "sell": 1
+        }
+      },
+      {
+        "id": 349,
+        "state": [],
+        "label": "Base Card",
+        "set": "DEFAULT",
+        "modifier": [],
+        "value": {
+          "rank": "3",
+          "effect": "+3 chips",
+          "suit": "C"
+        },
+        "key": "C_3",
+        "cost": {
+          "buy": 1,
+          "sell": 1
+        }
+      }
+    ],
+    "highlighted_limit": 5
+  },
+  "consumables": {
+    "count": 0,
+    "limit": 2,
+    "cards": [],
+    "highlighted_limit": 1
+  },
+  "jokers": {
+    "count": 0,
+    "limit": 5,
+    "cards": [],
+    "highlighted_limit": 1
+  },
   "round": {
-    "hands_left": 0,
+    "hands_left": 4,
     "reroll_cost": 5,
     "chips": 0,
-    "discards_left": 0,
+    "discards_left": 4,
     "hands_played": 0,
     "discards_used": 0
   },
@@ -132,65 +1131,65 @@
       "level": 1,
       "mult": 2
     },
-    "Four of a Kind": {
-      "order": 5,
+    "Three of a Kind": {
+      "order": 9,
       "played": 0,
       "played_this_round": 0,
       "example": [
-        [
-          "S_J",
-          true
-        ],
-        [
-          "H_J",
-          true
-        ],
-        [
-          "C_J",
-          true
-        ],
-        [
-          "D_J",
-          true
-        ],
-        [
-          "C_3",
-          false
-        ]
-      ],
-      "chips": 60,
-      "level": 1,
-      "mult": 7
-    },
-    "Straight Flush": {
-      "order": 4,
-      "played": 0,
-      "played_this_round": 0,
-      "example": [
-        [
-          "S_Q",
-          true
-        ],
-        [
-          "S_J",
-          true
-        ],
         [
           "S_T",
           true
         ],
         [
-          "S_9",
+          "C_T",
           true
         ],
         [
-          "S_8",
+          "D_T",
           true
+        ],
+        [
+          "H_6",
+          false
+        ],
+        [
+          "D_5",
+          false
         ]
       ],
-      "chips": 100,
+      "chips": 30,
       "level": 1,
-      "mult": 8
+      "mult": 3
+    },
+    "High Card": {
+      "order": 12,
+      "played": 0,
+      "played_this_round": 0,
+      "example": [
+        [
+          "S_A",
+          true
+        ],
+        [
+          "D_Q",
+          false
+        ],
+        [
+          "D_9",
+          false
+        ],
+        [
+          "C_4",
+          false
+        ],
+        [
+          "D_3",
+          false
+        ]
+      ],
+      "chips": 5,
+      "level": 1,
+      "mult": 1
     },
     "Straight": {
       "order": 8,
@@ -222,35 +1221,35 @@
       "level": 1,
       "mult": 4
     },
-    "Three of a Kind": {
-      "order": 9,
+    "Four of a Kind": {
+      "order": 5,
       "played": 0,
       "played_this_round": 0,
       "example": [
         [
-          "S_T",
+          "S_J",
           true
         ],
         [
-          "C_T",
+          "H_J",
           true
         ],
         [
-          "D_T",
+          "C_J",
           true
         ],
         [
-          "H_6",
-          false
+          "D_J",
+          true
         ],
         [
-          "D_5",
+          "C_3",
           false
         ]
       ],
-      "chips": 30,
+      "chips": 60,
       "level": 1,
-      "mult": 3
+      "mult": 7
     },
     "Flush Five": {
       "order": 1,
@@ -342,66 +1341,66 @@
       "level": 1,
       "mult": 12
     },
-    "High Card": {
-      "order": 12,
+    "Straight Flush": {
+      "order": 4,
       "played": 0,
       "played_this_round": 0,
       "example": [
         [
-          "S_A",
+          "S_Q",
           true
         ],
         [
-          "D_Q",
-          false
+          "S_J",
+          true
         ],
         [
-          "D_9",
-          false
+          "S_T",
+          true
         ],
         [
-          "C_4",
-          false
+          "S_9",
+          true
         ],
         [
-          "D_3",
-          false
+          "S_8",
+          true
         ]
       ],
-      "chips": 5,
+      "chips": 100,
       "level": 1,
-      "mult": 1
+      "mult": 8
     }
   },
-  "money": 0,
-  "state": "MENU",
-  "round_num": 0,
+  "money": 4,
+  "state": "SELECTING_HAND",
+  "round_num": 1,
   "used_vouchers": [],
   "blinds": {
     "boss": {
       "tag_effect": "",
       "status": "UPCOMING",
-      "name": "Boss Blind",
+      "name": "The Manacle",
       "type": "BOSS",
       "tag_name": "",
-      "effect": "",
+      "effect": "-1 Hand Size",
       "score": 600
     },
     "small": {
-      "tag_effect": "",
-      "status": "SELECT",
+      "tag_effect": "Gives $5 per skipped Blind this run (Will give $5)",
+      "status": "CURRENT",
       "name": "Small Blind",
       "type": "SMALL",
-      "tag_name": "",
+      "tag_name": "Skip Tag",
       "effect": "",
       "score": 300
     },
     "big": {
-      "tag_effect": "",
+      "tag_effect": "Rerolls the Boss Blind",
       "status": "UPCOMING",
       "name": "Big Blind",
       "type": "BIG",
-      "tag_name": "",
+      "tag_name": "Boss Tag",
       "effect": "",
       "score": 450
     }
