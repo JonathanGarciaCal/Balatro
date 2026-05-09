@@ -6,7 +6,10 @@
       "Bash(Select-Object Name)",
       "Bash(rm -f validate_sdk.py TEST_RESULTS.md .coverage && rm -rf logs .pytest_cache .vscode)",
       "Bash(git add *)",
-      "Bash(git commit -m 'chore\\(cleanup\\): remove unused files and exploration artifacts *)"
+      "Bash(git commit -m 'chore\\(cleanup\\): remove unused files and exploration artifacts *)",
+      "Bash(python -c \"from balatro import BalatroAPI; print\\('✓ Import successful'\\)\")",
+      "Bash(python -m py_compile examples/sdk_basic.py src/playground.py examples/bot.py)",
+      "Bash(git commit -m 'fix: remove unused imports after module cleanup *)"
     ]
   }
 }
